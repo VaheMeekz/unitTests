@@ -5,13 +5,15 @@
   "scripts": {
     "start": "node main.js",
     "dev": "nodemon main.js",
-    "intro": "nodemon introduction/intro.js",
+    "intro": "node introduction/intro.js",
+    "sync" : "node sync/sync.js",
     "test": "jest"
   },
   "repository": "https://github.com/VaheMeekz/unitTests.git",
-  "author": "VaheMeekz <“vahe.mkrtchyan.a3@gmial.com”>",
+  "author": "VaheMeekz <“vaheemkrtchyan@gmial.com”>",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^28.1.0",
     "nodemon": "^2.0.16"
   }
 }
