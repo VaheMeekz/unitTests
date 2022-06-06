@@ -1,0 +1,17 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "intro": "nodemon introduction/intro.js",
+    "test": "jest"
+  },
+  "repository": "https://github.com/VaheMeekz/unitTests.git",
+  "author": "VaheMeekz <“vahe.mkrtchyan.a3@gmial.com”>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
